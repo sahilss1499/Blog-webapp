@@ -1,0 +1,18 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+
+<div class="centerstage">
+  <!-- When we make a list view the default name given is modelname_list automatically -->
+  {% for post in post_list %}
+  <div class="post">
+    <h1><a href="{% url 'post_detail' pk=post.pk %}" class="loader">{{ post.title }}</a></h1>
+    <div class="date"><p class="loader">Published on: {{ post.published_date|date:"D M Y"}}</p>
+    </div>
+    <a href="{% url 'post_detail' pk=post.pk %}" class="loader">Comments: {{ post.approve_comments.count }}</a>
+
+  </div>
+  {% endfor %}
+</div>
+
+{% endblock %}
