@@ -7,7 +7,7 @@
   {% for post in post_list %}
   <div class="post">
     <h1><a href="{% url 'post_detail' pk=post.pk %}" class="loader">{{ post.title }}</a></h1>
-    <div class="date"><p class="loader">Published on: {{ post.published_date|date:"D M Y"}}</p>
+    <div class="date"><p class="loader">Published on: {{ post.published_date|date:"Y-m-d"}}</p>
     </div>
     <a href="{% url 'post_detail' pk=post.pk %}" class="loader">Comments: {{ post.approve_comments.count }}</a>
 
