@@ -12,4 +12,4 @@ After writing a comment you will be asked to verify the comment before posting. 
 * Python using Django framework
 * HTML
 * CSS
-* Mediun Style Editor [CDN](https://yabwe.github.io/medium-editor/)
+* Medium Style Editor [CDN](https://yabwe.github.io/medium-editor/) (for adding text editing features)
