@@ -13,3 +13,5 @@ After writing a comment you will be asked to verify the comment before posting. 
 * HTML
 * CSS
 * Medium Style Editor [CDN](https://yabwe.github.io/medium-editor/) (for adding text editing features)
+
+### Demo Video [Link](https://youtu.be/UzuzR-woME8)
